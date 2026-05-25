@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@theme {
+  /* === COLORS === */
+  --color-cohere-black: #000000;
+  --color-near-black: #17171c;
+  --color-enterprise-green: #003c33;
+  --color-dark-navy: #071829;
+  --color-action-blue: #1863dc;
+  --color-coral: #ff7759;
+  --color-soft-coral: #ffad9b;
+
+  --color-canvas: #ffffff;
+  --color-soft-stone: #eeece7;
+  --color-pale-green: #edfce9;
+  --color-pale-blue: #f1f5ff;
+  --color-card-border: #f2f2f2;
+
+  --color-ink: #212121;
+  --color-muted-slate: #93939f;
+  --color-slate: #75758a;
+  --color-hairline: #d9d9dd;
+  --color-border-light: #e5e7eb;
+
+  --color-focus-blue: #4c6ee6;
+  --color-focus-violet: #9b60aa;
+  --color-error-red: #b30000;
+
+  /* === TYPOGRAPHY === */
+  --font-display: "Space Grotesk", Inter, ui-sans-serif, system-ui;
+  --font-body: Inter, Arial, ui-sans-serif, system-ui;
+  --font-mono: "Space Mono", Arial, ui-sans-serif, system-ui;
+
+  /* === BORDER RADIUS === */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 22px;
+  --radius-xl: 30px;
+  --radius-pill: 32px;
+  --radius-full: 9999px;
+
+  /* === SPACING (8px base) === */
+  --spacing-1: 8px;
+  --spacing-2: 16px;
+  --spacing-3: 24px;
+  --spacing-4: 32px;
+  --spacing-5: 40px;
+  --spacing-6: 56px;
+  --spacing-7: 64px;
+  --spacing-8: 80px;
+
+  /* === TYPE SCALE === */
+--text-hero: 96px;
+--text-product-display: 72px;
+--text-section-display: 60px;
+--text-section-heading: 48px;
+--text-card-heading: 32px;
+--text-feature-heading: 24px;
+--text-body-large: 18px;
+--text-body: 16px;
+--text-button: 14px;
+--text-micro: 12px;
+
+/* === LETTER SPACING === */
+--tracking-hero: -1.92px;
+--tracking-product: -1.44px;
+--tracking-section: -1.2px;
+--tracking-section-heading: -0.48px;
+--tracking-card-heading: -0.32px;
+--tracking-mono: 0.28px;
+
+/* === LINE HEIGHTS === */
+--leading-tight: 1.00;
+--leading-section: 1.20;
+--leading-feature: 1.30;
+--leading-body-large: 1.40;
+--leading-body: 1.50;
+--leading-button: 1.71;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-canvas);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

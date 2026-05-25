@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# Arduino build artifacts
+build/
+*.elf
+*.hex
+*.bin
+*.map
+
+# Other sketch files (only tracking RWIP.ino)
+equilibriumv1.ino
+equilibriumv2.ino
+
+# Project notes (not tracked)
+CLAUDE.md
+DESIGN.md
+RWIP_App_Build_Reference.md
+
+# Frontend
+client/node_modules/
+client/dist/
+client/.env.local
+client/.env
+
+# Python backend (future)
+backend/venv/
+backend/.env
+__pycache__/
+*.pyc
+*.db
